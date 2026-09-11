@@ -42,7 +42,7 @@ partial class Form1
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Blue;
+            this.pictureBox1.BackColor = System.Drawing.Color.White;
             this.pictureBox1.Location = new System.Drawing.Point(3, -2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(799, 440);
@@ -55,7 +55,7 @@ partial class Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Blue;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
@@ -96,7 +96,7 @@ partial class Form1
                 ee = Graphics.FromImage(b);
                 Pen a = new Pen(Color.FromArgb(0, 0, 0));
                 Pen c = new Pen(Color.FromArgb(255, 255, 255));
-                ee.Clear(Color.FromArgb(0, 0, 255));
+                ee.Clear(Color.FromArgb(255, 255, 255));
                 ee.DrawLine(a, e.X, e.Y-25, e.X, e.Y+25);
                 ee.DrawLine(a, e.X-25, e.Y, e.X+25, e.Y);
                 a.Dispose();
